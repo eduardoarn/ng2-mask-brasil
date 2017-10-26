@@ -1,6 +1,6 @@
 {
   "name": "ng2-brasil",
-  "version": "0.0.5",
+  "version": "0.0.11",
   "description": "Mascaras e pipes muito siples para ser utilizado nos projetos Angular 2+",
   "scripts": {
     "build": "./node_modules/.bin/ngc -p tsconfig.json && rm -rf aot"
