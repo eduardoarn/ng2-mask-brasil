@@ -1,8 +1,10 @@
 {
   "name": "ng2-brasil",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "Mascaras e pipes muito siples para ser utilizado nos projetos Angular 2+",
-  "scripts": {},
+  "scripts": {
+    "build": "./node_modules/.bin/ngc -p tsconfig.json && rm -rf aot"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/eduardoarn/ng2-mask-brasil.git"
@@ -33,11 +35,11 @@
     "@angular/platform-browser": "4.3.2",
     "rxjs": "5.0.1",
     "typescript": "2.3.4",
-    "zone.js": "0.8.5"
+    "zone.js": "0.8.5",
+    "google-libphonenumber": "^3.0.7"
   },
   "dependencies": {
     "@angular/compiler-cli": "^4.4.6",
-    "@angular/platform-server": "^4.4.6",
-    "google-libphonenumber": "^3.0.7"
+    "@angular/platform-server": "^4.4.6"
   }
 }

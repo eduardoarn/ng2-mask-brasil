@@ -1,19 +1,31 @@
 {
     "compilerOptions": {
-        "declaration": true,
-        "emitDecoratorMetadata": true,
-        "experimentalDecorators": true,
-        "lib": [
-            "dom",
-            "es6"
-        ],
-        "module": "commonjs",
-        "moduleResolution": "node",
-        "noImplicitAny": true,
-        "sourceMap": true,
-        "target": "es5"
+      "target": "es5",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "removeComments": false,
+      "noImplicitAny": false,
+      "declaration": true,
+      "outDir": "dist",
+      "lib": [
+        "es2016",
+        "dom"
+      ]
     },
+    "files": [
+      "index.ts"
+    ],
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ],
     "angularCompilerOptions": {
-        "genDir": "aot"
+      "genDir": "aot"
     }
-}
+  }
