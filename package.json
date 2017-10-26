@@ -1,0 +1,43 @@
+{
+  "name": "ng2-brasil",
+  "version": "0.0.1",
+  "description": "Mascaras e pipes muito siples para ser utilizado nos projetos Angular 2+",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardoarn/ng2-mask-brasil.git"
+  },
+  "keywords": [
+    "angular",
+    "angular2",
+    "angular3",
+    "angular4",
+    "brasil",
+    "telefone",
+    "pipe",
+    "ng2",
+    "CPF"
+  ],
+  "author": "Eduardo Miranda Soares",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eduardoarn/ng2-mask-brasil/issues"
+  },
+  "homepage": "https://github.com/eduardoarn/ng2-mask-brasil",
+  "devDependencies": {
+    "@angular/common": "4.3.2",
+    "@angular/compiler": "4.3.2",
+    "@angular/compiler-cli": "^4.3.2",
+    "@angular/core": "4.3.2",
+    "@angular/forms": "4.3.2",
+    "@angular/platform-browser": "4.3.2",
+    "rxjs": "5.0.1",
+    "typescript": "2.3.4",
+    "zone.js": "0.8.5"
+  },
+  "dependencies": {
+    "@angular/compiler-cli": "^4.4.6",
+    "@angular/platform-server": "^4.4.6",
+    "google-libphonenumber": "^3.0.7"
+  }
+}
