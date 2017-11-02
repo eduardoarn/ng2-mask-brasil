@@ -1,3 +1,4 @@
+import { ToNumberPipe } from './pipe.toNumber';
 import { CommonModule } from "@angular/common";
 import { FormsModule } from "@angular/forms";
 import { NgModule } from "@angular/core";
@@ -10,10 +11,12 @@ import { TelefonePipe } from './pipe.telefone';
         FormsModule
     ],
     declarations: [
-        TelefonePipe
+        TelefonePipe,
+        ToNumberPipe
     ],
     exports: [
-        TelefonePipe
+        TelefonePipe,
+        ToNumberPipe
     ]
 })
 export class MaskBrasilModule {
